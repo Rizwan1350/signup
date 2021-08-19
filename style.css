@@ -1,0 +1,151 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: linear-gradient(358deg, #f403d1a1, #64b5f6);
+    background-repeat: no-repeat;
+    background: cover;
+    background-size: 100% 100vh;
+}
+
+.contaner {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    border-radius: 23px;
+    /* margin-left: 100px;
+    margin-top: 90px; */
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: 34rem;
+    justify-content: center;
+}
+
+.imgContaner {}
+
+.imgContaner img {
+    height: 487px;
+    width: 487px;
+    margin: 35px;
+    border-radius: 20px;
+}
+
+.from {
+    margin: auto;
+    width: 380px;
+    /* padding: 50px 30px; */
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.log {
+    padding-bottom: 75px;
+}
+
+.control input[type="submit"] {
+    background: #081cd1;
+    width: 50%;
+    margin-left: 95px;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.control input {
+    width: 90%;
+    display: block;
+    padding: 10px;
+    background: #9ed8ff40;
+    border-radius: 5px;
+    border: none;
+    margin: 1em 0;
+}
+
+.control input[type="submit"]:hover {
+    opacity: 1;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+}
+
+.or .hr {}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.mic img {
+    height: 25px;
+    margin: 10px 15px;
+}
+
+.iconimgs img {
+    height: 25px;
+    margin: 10px 15px;
+    border-radius: 18px;
+}
+
+span hr {
+    width: 100px;
+    margin-top: 9px;
+}
+
+.info {
+    margin: 0px 10px;
+}
+
+a {
+    margin: 0px 80px;
+    text-decoration: none;
+    color: blacks;
+}
+
+@media screen and (max-width:1024px) {
+    a {
+        margin: 0px 50px;
+    }
+    span hr {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .imgContaner {
+        display: none;
+    }
+    .from {
+        padding: 0px 10px;
+    }
+    span hr {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    /* .from {
+        padding: 0px 10px;
+    } */
+    a {
+        margin: 0px 20px;
+    }
+    .control input[type="submit"] {
+        margin-left: 59px
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .imgContaner {
+        display: none;
+    }
+}
