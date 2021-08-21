@@ -113,7 +113,7 @@ a {
 
 @media screen and (max-width:1024px) {
     a {
-        margin: 0px 50px;
+        margin: 0px 0px;
     }
     span hr {
         width: 90px;
